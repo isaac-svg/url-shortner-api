@@ -2,8 +2,8 @@ import dotenv from "dotenv"
 dotenv.config()
 import cors from "cors"
 import  express  from 'express';
-import startDB from './DB/connection.js';
-import  createRoute from "./routes/gen-url.js"
+import startDB from './src/DB/connection.js';
+import  createRoute from "./src/routes/gen-url.js"
 const app = express();
 const port = 3000;
 
