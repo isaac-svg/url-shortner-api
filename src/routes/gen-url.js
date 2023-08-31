@@ -8,7 +8,7 @@ const router = express.Router()
 
 
 router.post("/stly", validateUrl,createUrl)
-router.get("/stly/:shortcode",redirectClient)
+router.get("/:shortcode",redirectClient)
 
 
 
